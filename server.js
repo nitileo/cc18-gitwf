@@ -5,4 +5,4 @@ const app = express();
 app.use("/auth", authRoute);
 
 const port = process.env.PORT || 8000;
-app.listen(port, () => console.log("Server running on Port", port));
+app.listen(9000, () => console.log("Server running on Port", 9000));
